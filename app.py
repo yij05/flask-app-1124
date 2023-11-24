@@ -24,7 +24,7 @@ def customer_test():
     data['gender'] = '男'
     '''
 
-    data = {'name':'王小明', 'gender':'男', 'age':20}
+    data = {'name':'王大明', 'gender':'男', 'age':20}
     return render_template('test.html', data = data)
 
 @app.route('/customer/list')
